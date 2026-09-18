@@ -1,0 +1,67 @@
+{
+  "generated_at": "2026-09-18",
+  "status": "ZERO_LOSS_SOURCE_LINKED_V1",
+  "rules": {
+    "presence_not_proof": true,
+    "runtime_state_separate_from_scientific_state": true,
+    "ui_not_engine": true
+  },
+  "major_runtime_findings": [
+    {
+      "id": "helix_control_api",
+      "state": "LEGACY_SUPABASE_DIRECT",
+      "source": "assets/control-v4-core.js",
+      "disposition": "REBUILD"
+    },
+    {
+      "id": "fie_live_forecast_adapter",
+      "state": "NOT_CONNECTED",
+      "source": "assets/fie-app.js",
+      "disposition": "REBUILD"
+    },
+    {
+      "id": "layerbase_direct_runtime",
+      "state": "CONFIG_REQUIRED",
+      "source": "helix-api-health /api/layerbase",
+      "http_status": 503,
+      "error": "DATABASE_URL_NOT_CONFIGURED",
+      "disposition": "REBUILD"
+    },
+    {
+      "id": "cutover_proxy_layerbase_env",
+      "state": "NOT_CONFIGURED",
+      "source": "helix-cutover-proxy /api/env",
+      "disposition": "REBUILD"
+    },
+    {
+      "id": "legacy_db_inventory",
+      "state": "UNVERIFIED",
+      "reason": "Supabase SQL connection timeout"
+    },
+    {
+      "id": "legacy_edge_metadata",
+      "state": "COMPLETE",
+      "count": 100
+    },
+    {
+      "id": "canonical_launcher_integrity",
+      "state": "VERIFIED",
+      "files": 17,
+      "hash_failures": 0
+    }
+  ],
+  "canonical_clusters": [
+    "WORLD_MARKET",
+    "COMPANY_EVIDENCE",
+    "NEWS_EVENTS",
+    "PATTERN_INTELLIGENCE",
+    "PROBABILITY_FORECAST",
+    "DECISION",
+    "PORTFOLIO_BUNDLE",
+    "PROOF",
+    "TMLE",
+    "LEARNING",
+    "AGENTIC_GOVERNANCE",
+    "INFRASTRUCTURE"
+  ]
+}
