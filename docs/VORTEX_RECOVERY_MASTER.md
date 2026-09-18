@@ -347,11 +347,31 @@ VERIFIED
 
 CONFLICT / BLOCKER
 - Current assets/control-v4-core.js still points directly to the old Supabase Edge Function.
-- Layerbase health checks have recently returned a mix of 200 and 503, so live connectivity is not yet reliable enough to claim cutover.
-- Direct legacy Supabase SQL access currently times out intermittently.
+- Current direct Vercel Layerbase runtime is not configured: helix-api-health /api/layerbase returns HTTP 503 CONFIG_REQUIRED / DATABASE_URL_NOT_CONFIGURED.
+- helix-cutover-proxy exists but its /api/env probe currently reports no Layerbase connection variables present.
+- Older helix-api-health routes previously used by VORTEX (/api/health, /api/parity, /api/target-audit) currently return 404 and must not be treated as health receipts.
+- Direct legacy Supabase SQL metadata access currently times out, so table/function/scheduler inventory remains unverified at DB level.
 - Layerbase schema / row parity is not yet independently re-verified in this recovery pass.
 - Scheduler replacement after pg_cron is not yet re-verified.
 - Supabase cannot be called fully retired while current Control Center runtime depends on its Edge endpoint.
+
+## 12.1 Source-level census checkpoint
+
+Canonical evidence now exists in:
+- `docs/SOURCE_LEVEL_ZERO_LOSS_CENSUS.md`
+- `docs/SOURCE_CENSUS_MANIFEST.json`
+- `docs/LEGACY_EDGE_FUNCTION_INVENTORY.json`
+- `docs/CAPABILITY_RUNTIME_MAP_V1.md`
+
+Verified at this checkpoint:
+- HELIX canonical launcher manifest: 17/17 files hash-verified.
+- Legacy Supabase Edge metadata: 100 functions inventoried.
+- Vercel FIE / HELIX projects: 11 inventoried.
+- Major legacy RPC / engine contracts recovered for Decision, Bundle, Pattern, Proof, TMLE and provider ingest.
+- Source-level evidence confirms the old Layerbase bridge existed.
+- Current direct Layerbase Vercel runtime is BLOCKED by missing database configuration.
+
+This checkpoint does not close Gate 0.5 because DB definitions, schedulers, remaining throttled Edge sources and direct Layerbase objects still require independent inventory.
 
 ## 13. Reconstruction policy
 

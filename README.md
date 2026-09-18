@@ -15,6 +15,9 @@ Canonical repository for the Finance Intelligence system.
 - `docs/LEGACY_CAPABILITY_REGISTRY.md` — preserved capability inventory across FIE 2.0, vNEXT/v32/v54, FIE 3.0 and HELIX Control Center.
 - `docs/HELIX_CONTROL_CENTER_MASTER_BUILD.md` — visual operating-system contract.
 - `docs/IMPLEMENTATION_FUNNEL.md` — evidence-based reconstruction sequence.
+- `docs/SOURCE_LEVEL_ZERO_LOSS_CENSUS.md` — source-level reality audit across launcher, GitHub, Supabase legacy, Vercel and Layerbase-facing runtime.
+- `docs/LEGACY_EDGE_FUNCTION_INVENTORY.json` — complete metadata inventory of 100 legacy Edge Functions.
+- `docs/CAPABILITY_RUNTIME_MAP_V1.md` — recovered capability → Agent / Engine / Job / API / DB / UI / Board / Gate map.
 
 ## Scientific contract
 

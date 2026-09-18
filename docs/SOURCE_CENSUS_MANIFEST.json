@@ -1,0 +1,84 @@
+{
+  "generated_at": "2026-09-18",
+  "mode": "ZERO_LOSS_READ_ONLY_CENSUS",
+  "canonical_launcher": {
+    "artifact": "HELIX_ONE_CLICK_LAUNCHER(1).zip",
+    "canonical_manifest_files": 17,
+    "hash_verified": 17,
+    "hash_failures": 0,
+    "byte_size_failures": 0
+  },
+  "github": {
+    "repository": "manfrediconforzi/helix-fie",
+    "surfaces": [
+      "/",
+      "/control/",
+      "/vortex/"
+    ],
+    "critical_runtime_dependency": {
+      "file": "assets/control-v4-core.js",
+      "state": "LEGACY_SUPABASE_DIRECT",
+      "endpoint": "fie-xhtml-render-test"
+    },
+    "fie_live_layerbase_adapter": "NOT_CONNECTED"
+  },
+  "supabase_legacy": {
+    "project_ref": "pyhajsqoukeazhyicgjr",
+    "edge_functions": 100,
+    "edge_metadata_coverage": "COMPLETE",
+    "edge_source_coverage": "PARTIAL_DUE_TO_RATE_LIMIT",
+    "direct_db_metadata": "UNVERIFIED_CONNECTION_TIMEOUT",
+    "functional_groups": {
+      "ui_gateway_publisher": 34,
+      "decision_behavior_learning": 13,
+      "proof_qa": 12,
+      "portfolio_bundle": 9,
+      "general_support": 9,
+      "source_ingest": 7,
+      "tmle_historical_data": 7,
+      "discovery_scan": 5,
+      "science_research": 3,
+      "pattern_intelligence": 1
+    }
+  },
+  "layerbase_target": {
+    "name": "helix-prod",
+    "database_id": "98cf9ec0-a13c-40be-bafe-3cbc37949c0b",
+    "canonical_intent": "VERIFIED_IN_RECOVERED_SOURCE",
+    "direct_runtime_status": "BLOCKED_CONFIG_REQUIRED",
+    "direct_runtime_error": "DATABASE_URL_NOT_CONFIGURED",
+    "schema_inventory": "UNVERIFIED"
+  },
+  "vercel": {
+    "fie_helix_projects": 11,
+    "projects": [
+      "helix-api-health",
+      "helix-cutover-proxy",
+      "helix-control-center",
+      "helix-control-center-v4-stable",
+      "helix-control-center-v4-fixed",
+      "helix-v4-test",
+      "helix-fie-control-center",
+      "fie3-consumer-dev",
+      "fie3-test-render",
+      "fie-finance-intelligence-engine-v32",
+      "fie-finance-intelligence-engine"
+    ],
+    "helix_api_health": {
+      "deployment_state": "READY",
+      "canonical_route": "/api/layerbase",
+      "runtime_http_status": 503,
+      "runtime_state": "CONFIG_REQUIRED"
+    },
+    "helix_cutover_proxy": {
+      "deployment_state": "READY",
+      "layerbase_env_present": false
+    }
+  },
+  "gates": {
+    "gate_0": "STRONG",
+    "gate_0_5": "IN_PROGRESS",
+    "gate_1": "BLOCKED",
+    "gate_2_plus": "LOCKED_BY_EVIDENCE"
+  }
+}
