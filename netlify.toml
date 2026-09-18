@@ -12,3 +12,4 @@
   from = "/control"
   to = "/control/"
   status = 301
+\n[[redirects]]\n  from = "/vortex"\n  to = "/vortex/"\n  status = 301\n
