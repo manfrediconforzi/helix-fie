@@ -307,6 +307,28 @@ Known legacy lessons to preserve include:
 Nothing failed is silently deleted.
 Each item must be classified RETAIN / ADAPT / REBUILD / DEPRECATE / QUARANTINE.
 
+## 11.1 ZERO LOSS reconstruction contract
+
+The canonical recovery is now governed by:
+- `docs/HELIX_ZERO_LOSS_CANONICAL_RECONSTRUCTION.md`
+- `docs/LEGACY_CAPABILITY_REGISTRY.md`
+
+ZERO LOSS is mandatory before navigation simplification or capability retirement.
+
+Rules:
+- no legacy capability disappears without a registry disposition;
+- similar names are not merged until semantic equivalence is proven;
+- legacy aliases, evidence and negative knowledge are preserved;
+- UI simplification may hide complexity but may not erase capability;
+- scientific state and runtime state remain separate;
+- Agent, Engine, Job, API, Database Object, UI Module, Board and Gate remain distinct object types;
+- every retained capability must eventually map to an owner, engine, data contract, evidence contract, runtime and verification receipt.
+
+Recovery dispositions:
+RETAIN / ADAPT / REBUILD / DEPRECATE / QUARANTINE
+
+No item may be removed from the registry.
+
 ## 12. Current verified reality — 2026-09-18
 
 VERIFIED
@@ -438,6 +460,9 @@ RECOVERY
 GATE 0 — Canonical truth recovered
 Exit: documents, decisions, negative knowledge, agents, engines and KPIs consolidated.
 
+GATE 0.5 — ZERO LOSS registry complete
+Exit: every recovered FIE / HELIX legacy capability is inventoried, categorized and assigned RETAIN / ADAPT / REBUILD / DEPRECATE / QUARANTINE with lineage preserved.
+
 GATE 1 — Layerbase live
 Exit: stable server-side health, canonical schemas visible, no browser credentials.
 
@@ -478,13 +503,14 @@ RUNNING never implies SCIENTIFICALLY_VALIDATED.
 ## 17. Immediate execution priority
 
 1. Keep legacy source read-only.
-2. Prove Layerbase health and schema state.
-3. Inventory canonical Layerbase objects against this contract.
-4. Remove the direct Supabase API constant from Control Center only after replacement API is proven.
-5. Rebuild canonical server-side API against Layerbase.
-6. Rebind FIE and HELIX to that API.
-7. Restore schedulers / agent loops.
-8. Restore science / proof / learning pipelines.
-9. Validate VORTEX as the single master truth surface.
-10. Only then complete Supabase cutoff.
+2. Complete the ZERO LOSS capability registry before simplifying navigation.
+3. Prove Layerbase health and schema state.
+4. Inventory canonical Layerbase objects against this contract.
+5. Remove the direct Supabase API constant from Control Center only after replacement API is proven.
+6. Rebuild canonical server-side API against Layerbase.
+7. Rebind FIE and HELIX to that API.
+8. Restore schedulers / agent loops.
+9. Restore science / proof / learning pipelines.
+10. Validate VORTEX as the single master truth surface.
+11. Only then complete Supabase cutoff.
 
