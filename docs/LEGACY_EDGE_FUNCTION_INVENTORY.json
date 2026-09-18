@@ -1,0 +1,1008 @@
+{
+  "generated_at": "2026-09-18",
+  "legacy_project_ref": "pyhajsqoukeazhyicgjr",
+  "count": 100,
+  "note": "Metadata inventory only. ACTIVE does not imply canonical, healthy, scientifically valid, or Layerbase-backed.",
+  "functions": [
+    {
+      "slug": "fie-live",
+      "status": "ACTIVE",
+      "version": 5,
+      "verify_jwt": false,
+      "created_at": 1787907177582,
+      "updated_at": 1787907177582,
+      "source_sha256": "915f8fea5b5f702c181511bec28d3e2913fcac428412102eae629e4ef3521aa0",
+      "functional_group": "UI_GATEWAY"
+    },
+    {
+      "slug": "fie-live-test",
+      "status": "ACTIVE",
+      "version": 5,
+      "verify_jwt": false,
+      "created_at": 1787907608377,
+      "updated_at": 1787907608377,
+      "source_sha256": "cbc97f8d247b3f9c681a1517871a9399263b46a7241b4b954a5af03ac7c41316",
+      "functional_group": "UI_GATEWAY"
+    },
+    {
+      "slug": "fie-app",
+      "status": "ACTIVE",
+      "version": 5,
+      "verify_jwt": false,
+      "created_at": 1787907658047,
+      "updated_at": 1787907658047,
+      "source_sha256": "1708b95d242c69fc495d3508a9118fba3f2f32e850485fa239c9cecb5743ea69",
+      "functional_group": "UI_GATEWAY"
+    },
+    {
+      "slug": "fie-universal-engine",
+      "status": "ACTIVE",
+      "version": 9,
+      "verify_jwt": true,
+      "created_at": 1787985356958,
+      "updated_at": 1788334574824,
+      "source_sha256": "208b7a5db184d9e25f19f005a5af84cb0941174876ec529f4bed3dbd023054ab",
+      "functional_group": "OTHER"
+    },
+    {
+      "slug": "fie2-preview",
+      "status": "ACTIVE",
+      "version": 5,
+      "verify_jwt": false,
+      "created_at": 1788132556657,
+      "updated_at": 1788132556657,
+      "source_sha256": "4c4116a8ddb343be4f71500708f15000bf5c5dfb874d4ca748e0006cf6e36c3f",
+      "functional_group": "UI_GATEWAY"
+    },
+    {
+      "slug": "fie2-read-gateway",
+      "status": "ACTIVE",
+      "version": 35,
+      "verify_jwt": false,
+      "created_at": 1788179852876,
+      "updated_at": 1788685239782,
+      "source_sha256": "0d512a2937f93dc6e2048066ab2abf72ee859e41c7cd383cdad7a27f25663c45",
+      "functional_group": "UI_GATEWAY"
+    },
+    {
+      "slug": "fie2-orchestra-preview",
+      "status": "ACTIVE",
+      "version": 6,
+      "verify_jwt": false,
+      "created_at": 1788199070770,
+      "updated_at": 1788209284603,
+      "source_sha256": "3b112f26909a89ce1e26085bfdc1b2817c22669a8a0174a4768358d345810186",
+      "functional_group": "UI_GATEWAY"
+    },
+    {
+      "slug": "fie2-vnext-preview",
+      "status": "ACTIVE",
+      "version": 6,
+      "verify_jwt": false,
+      "created_at": 1788313986204,
+      "updated_at": 1788330619491,
+      "source_sha256": "f119c11cde846fb76602367c0f6eab2fb877e60dc042480c3ff2e6feb7c65fe1",
+      "functional_group": "UI_GATEWAY"
+    },
+    {
+      "slug": "fie-official-ir-ingest",
+      "status": "ACTIVE",
+      "version": 6,
+      "verify_jwt": false,
+      "created_at": 1788330263740,
+      "updated_at": 1788760757666,
+      "source_sha256": "b0ba63b9adc07cbd7e4fff9192340fd2fd8d152f30e10a7492762b173a80f791",
+      "functional_group": "SOURCE_INGEST"
+    },
+    {
+      "slug": "fie2-orchestra-fast-read",
+      "status": "ACTIVE",
+      "version": 5,
+      "verify_jwt": false,
+      "created_at": 1788333275774,
+      "updated_at": 1788333275774,
+      "source_sha256": "bc47a419fe6f21941bdea7bc2442f55ba643d8392d55282ef39967d7ac00c952",
+      "functional_group": "UI_GATEWAY"
+    },
+    {
+      "slug": "fie-auth-e2e-once",
+      "status": "ACTIVE",
+      "version": 6,
+      "verify_jwt": false,
+      "created_at": 1788334527800,
+      "updated_at": 1788384399500,
+      "source_sha256": "3a2cc537361955c1fbd038d84c597170c4ca211cc8d19e3bd203d70738efa21b",
+      "functional_group": "OTHER"
+    },
+    {
+      "slug": "fie-kpi-visual-taxonomy",
+      "status": "ACTIVE",
+      "version": 5,
+      "verify_jwt": false,
+      "created_at": 1788362447747,
+      "updated_at": 1788362447747,
+      "source_sha256": "1b88fb5143749e478388fccf630e0bc5342655d3468f62512a4f203dcdc256c8",
+      "functional_group": "OTHER"
+    },
+    {
+      "slug": "fie-kpi-colors-preview",
+      "status": "ACTIVE",
+      "version": 5,
+      "verify_jwt": false,
+      "created_at": 1788363203243,
+      "updated_at": 1788363203243,
+      "source_sha256": "e461d8c13769718144ff5c214b92905a86ae0a30a383bbcad18124d19788ebb0",
+      "functional_group": "UI_GATEWAY"
+    },
+    {
+      "slug": "fie-v32-allrooms-colors",
+      "status": "ACTIVE",
+      "version": 33,
+      "verify_jwt": false,
+      "created_at": 1788363679906,
+      "updated_at": 1788548232751,
+      "source_sha256": "b81e60ad32fd133d24223d2d98315ada37b46e1ecad42259afa3a8791fc39abb",
+      "functional_group": "UI_GATEWAY"
+    },
+    {
+      "slug": "fie-v32-header-inspector",
+      "status": "ACTIVE",
+      "version": 5,
+      "verify_jwt": false,
+      "created_at": 1788367797549,
+      "updated_at": 1788367797549,
+      "source_sha256": "c670172873957033726bc80f0cfdc7cee2728976b186d698ba9b487053743a83",
+      "functional_group": "UI_GATEWAY"
+    },
+    {
+      "slug": "fie-v32-publish-static",
+      "status": "ACTIVE",
+      "version": 6,
+      "verify_jwt": false,
+      "created_at": 1788367903374,
+      "updated_at": 1788367930336,
+      "source_sha256": "244bcfa92b82470ea42f900f2cf8b4c6d70ea0a20264e91712edd5c7fb7656b9",
+      "functional_group": "UI_GATEWAY"
+    },
+    {
+      "slug": "fie-mime-test",
+      "status": "ACTIVE",
+      "version": 7,
+      "verify_jwt": false,
+      "created_at": 1788368003504,
+      "updated_at": 1789567977380,
+      "source_sha256": "a9144204a91c23ac8c0eddc4d5787017058aae81d757ae8d429234d97ab128dc",
+      "functional_group": "OTHER"
+    },
+    {
+      "slug": "fie-v32-publish-svg",
+      "status": "ACTIVE",
+      "version": 5,
+      "verify_jwt": false,
+      "created_at": 1788369529849,
+      "updated_at": 1788369529849,
+      "source_sha256": "c68117d9799ecdab841669eda657f3be0d13b7e33326c5d68e7ffb41d4d0c90b",
+      "functional_group": "UI_GATEWAY"
+    },
+    {
+      "slug": "fie-xhtml-render-test",
+      "status": "ACTIVE",
+      "version": 114,
+      "verify_jwt": false,
+      "created_at": 1788370674089,
+      "updated_at": 1789600067631,
+      "source_sha256": "60dc3999bd6f49ead7c6e286070610a48420644326daa3e87e9e643fe6229db8",
+      "functional_group": "UI_GATEWAY"
+    },
+    {
+      "slug": "fie-v32-mobile-menu-patch",
+      "status": "ACTIVE",
+      "version": 7,
+      "verify_jwt": false,
+      "created_at": 1788371580371,
+      "updated_at": 1788371654213,
+      "source_sha256": "bf76cf918b60f3a8a7a31f3db248a6df3613fb43585aebbdcbda63d35523542b",
+      "functional_group": "UI_GATEWAY"
+    },
+    {
+      "slug": "fie-v40-publisher-once",
+      "status": "ACTIVE",
+      "version": 6,
+      "verify_jwt": false,
+      "created_at": 1788377951074,
+      "updated_at": 1788378093280,
+      "source_sha256": "82447ead23c6e8e55dd8a8de6d4b6f75e0f7df3129051cfaad84d0388f8498d5",
+      "functional_group": "UI_GATEWAY"
+    },
+    {
+      "slug": "fie-global-opportunity-scout",
+      "status": "ACTIVE",
+      "version": 5,
+      "verify_jwt": false,
+      "created_at": 1788378645835,
+      "updated_at": 1788378645835,
+      "source_sha256": "e61af92f1c18d71deb78a94c6a4afdd565b67f5efdd6ea8bf810c8935007b802",
+      "functional_group": "DISCOVERY_SCAN"
+    },
+    {
+      "slug": "fie-v41-publisher-once",
+      "status": "ACTIVE",
+      "version": 6,
+      "verify_jwt": false,
+      "created_at": 1788384319094,
+      "updated_at": 1788384390015,
+      "source_sha256": "5df71816c4189c8ae9065d8c8396798a4f8cb5c450ae246232a0c9f6a635bb65",
+      "functional_group": "UI_GATEWAY"
+    },
+    {
+      "slug": "fie-global-security-search",
+      "status": "ACTIVE",
+      "version": 6,
+      "verify_jwt": false,
+      "created_at": 1788387758507,
+      "updated_at": 1788390347527,
+      "source_sha256": "b3680a82733b0d24954a80be4f40d1ba31a92e2b83365c271c5f47300417ee75",
+      "functional_group": "DISCOVERY_SCAN"
+    },
+    {
+      "slug": "fie-v42-publisher-once",
+      "status": "ACTIVE",
+      "version": 6,
+      "verify_jwt": false,
+      "created_at": 1788387976719,
+      "updated_at": 1788388016730,
+      "source_sha256": "e011d8c016430eb6446a2d0c426d64493b6dab0e8717449ed7a46a06805a3081",
+      "functional_group": "UI_GATEWAY"
+    },
+    {
+      "slug": "fie-tradingview-scan-test",
+      "status": "ACTIVE",
+      "version": 7,
+      "verify_jwt": false,
+      "created_at": 1788389941561,
+      "updated_at": 1788389991133,
+      "source_sha256": "a513199b4344fa480f43ad814fa65d690523181e6a9f9b69592af453990e5ee2",
+      "functional_group": "SOURCE_INGEST"
+    },
+    {
+      "slug": "fie-global-500-scanner",
+      "status": "ACTIVE",
+      "version": 5,
+      "verify_jwt": false,
+      "created_at": 1788390097769,
+      "updated_at": 1788390097769,
+      "source_sha256": "3acbb1affee010f3caff6e6eca1ffaef8dc9c37387281dd4b805f6b35c23df39",
+      "functional_group": "DISCOVERY_SCAN"
+    },
+    {
+      "slug": "fie-v43-publisher-once",
+      "status": "ACTIVE",
+      "version": 6,
+      "verify_jwt": false,
+      "created_at": 1788390464936,
+      "updated_at": 1788390497080,
+      "source_sha256": "ffb29c5bd73bb6d60b4b0f9478557bda152231489f4f2f289d5df1aa6c261a35",
+      "functional_group": "UI_GATEWAY"
+    },
+    {
+      "slug": "fie-radar3-auto-onboard",
+      "status": "ACTIVE",
+      "version": 5,
+      "verify_jwt": false,
+      "created_at": 1788390951904,
+      "updated_at": 1788390951904,
+      "source_sha256": "a258cb654f7ce14a6be76df12265738ecc6a230f52ad7efe8dd9fbf090971491",
+      "functional_group": "OTHER"
+    },
+    {
+      "slug": "fie-v44-publisher-once",
+      "status": "ACTIVE",
+      "version": 6,
+      "verify_jwt": false,
+      "created_at": 1788391132412,
+      "updated_at": 1788391229729,
+      "source_sha256": "7727e1e1c84bf30762485ce7975f75904d9a3fec1394321f5339213c2441a584",
+      "functional_group": "UI_GATEWAY"
+    },
+    {
+      "slug": "fie-v45-publisher-once",
+      "status": "ACTIVE",
+      "version": 8,
+      "verify_jwt": false,
+      "created_at": 1788392470402,
+      "updated_at": 1788392559784,
+      "source_sha256": "27eb63dacda2979693a0661ab0a0941f753e5d14301ada22c5a0c33beac5610e",
+      "functional_group": "UI_GATEWAY"
+    },
+    {
+      "slug": "fie-v46-publisher-once",
+      "status": "ACTIVE",
+      "version": 6,
+      "verify_jwt": false,
+      "created_at": 1788417070085,
+      "updated_at": 1788417120746,
+      "source_sha256": "da5b8ab9ae80f4dc51dcef02dc34e742fbd221fb2bafcbe23a71e3367ba09764",
+      "functional_group": "UI_GATEWAY"
+    },
+    {
+      "slug": "fie-intraday-probe-once",
+      "status": "ACTIVE",
+      "version": 6,
+      "verify_jwt": false,
+      "created_at": 1788421894715,
+      "updated_at": 1788422477708,
+      "source_sha256": "cfc244b189ee5ae5f929715f0cc21d703fac63923a1b817197c28ac19da208f6",
+      "functional_group": "DISCOVERY_SCAN"
+    },
+    {
+      "slug": "fie-danger-zone-intraday-scan",
+      "status": "ACTIVE",
+      "version": 7,
+      "verify_jwt": false,
+      "created_at": 1788422016820,
+      "updated_at": 1788422444235,
+      "source_sha256": "6ed1e6722683e1cf2015a9374b782b41bbd1b6f1c47655cc189912b73f686fd0",
+      "functional_group": "DISCOVERY_SCAN"
+    },
+    {
+      "slug": "fie-v47-publisher-once",
+      "status": "ACTIVE",
+      "version": 7,
+      "verify_jwt": false,
+      "created_at": 1788422287118,
+      "updated_at": 1788422468499,
+      "source_sha256": "8f424984de87d55afa68a5eb941e97573179f3aae5d2207373536d78af55d2cb",
+      "functional_group": "UI_GATEWAY"
+    },
+    {
+      "slug": "fie-v48-publisher-once",
+      "status": "ACTIVE",
+      "version": 8,
+      "verify_jwt": false,
+      "created_at": 1788439955649,
+      "updated_at": 1788440253713,
+      "source_sha256": "16d514a198aa885e38f9caa17eeb47cda27c2ad9da2d21f2ce4b2fb1dd769489",
+      "functional_group": "UI_GATEWAY"
+    },
+    {
+      "slug": "fie-v49-publisher-once",
+      "status": "ACTIVE",
+      "version": 6,
+      "verify_jwt": false,
+      "created_at": 1788455426400,
+      "updated_at": 1788455468514,
+      "source_sha256": "0be90bb4bf160d5400e0151ed10a09de5bf2b366fed98a338d6ef92a0950cd3d",
+      "functional_group": "UI_GATEWAY"
+    },
+    {
+      "slug": "fie-v50-publisher-once",
+      "status": "ACTIVE",
+      "version": 9,
+      "verify_jwt": false,
+      "created_at": 1788462047637,
+      "updated_at": 1788475281306,
+      "source_sha256": "3b8f54e882cdd82966715571ba28f214bf3300a26cb116349de619da61880ccc",
+      "functional_group": "UI_GATEWAY"
+    },
+    {
+      "slug": "fie-v51-trader-development-publisher-once",
+      "status": "ACTIVE",
+      "version": 7,
+      "verify_jwt": false,
+      "created_at": 1788478236780,
+      "updated_at": 1788478378486,
+      "source_sha256": "4ccbe7bae036cd7bc96a608fdaad414ce7d343f7381149a0e287d4cee2196c53",
+      "functional_group": "UI_GATEWAY"
+    },
+    {
+      "slug": "fie-v51-qa-once",
+      "status": "ACTIVE",
+      "version": 6,
+      "verify_jwt": false,
+      "created_at": 1788478341684,
+      "updated_at": 1788478382527,
+      "source_sha256": "1e438d7572c0ef15f3eb405443494517e74ee571737bf6b2ee7a7aa9092461b5",
+      "functional_group": "PROOF_QA"
+    },
+    {
+      "slug": "fie-decision-learning-live",
+      "status": "ACTIVE",
+      "version": 7,
+      "verify_jwt": false,
+      "created_at": 1788493427175,
+      "updated_at": 1788493604766,
+      "source_sha256": "4b00bd168bc19ea457dd2065e3aa1f8303c5cf6bf6976bee14ddb5ffec838767",
+      "functional_group": "DECISION_LEARNING"
+    },
+    {
+      "slug": "fie-v52-live-visuals-publisher-once",
+      "status": "ACTIVE",
+      "version": 6,
+      "verify_jwt": false,
+      "created_at": 1788493704596,
+      "updated_at": 1788494120312,
+      "source_sha256": "2ca7b48b956ef537deaca3642036831bef6db8b0d764fbc55c97ba9a01102f8f",
+      "functional_group": "UI_GATEWAY"
+    },
+    {
+      "slug": "fie-v52-qa-once",
+      "status": "ACTIVE",
+      "version": 6,
+      "verify_jwt": false,
+      "created_at": 1788493721186,
+      "updated_at": 1788494127053,
+      "source_sha256": "7b2361c669f6c13787d3312cc723b0fa7047d242aafbee6509d20174fdc8ae17",
+      "functional_group": "PROOF_QA"
+    },
+    {
+      "slug": "fie-behaviour-engine",
+      "status": "ACTIVE",
+      "version": 6,
+      "verify_jwt": false,
+      "created_at": 1788506536621,
+      "updated_at": 1788506561765,
+      "source_sha256": "00c42b8653c39f77a0a863f3fa2b96dfcc3af018019b9ccf68e74063d2679c5e",
+      "functional_group": "DECISION_LEARNING"
+    },
+    {
+      "slug": "fie-v53-behaviour-ui",
+      "status": "ACTIVE",
+      "version": 5,
+      "verify_jwt": false,
+      "created_at": 1788506675444,
+      "updated_at": 1788506675444,
+      "source_sha256": "ed4f4a7db3270e5593f02af33b75f43e0bad6b179d44d6b11f2768282368a0aa",
+      "functional_group": "DECISION_LEARNING"
+    },
+    {
+      "slug": "fie-v53-qa-once",
+      "status": "ACTIVE",
+      "version": 5,
+      "verify_jwt": false,
+      "created_at": 1788506702825,
+      "updated_at": 1788506702825,
+      "source_sha256": "525a95a71f85df7cc2bb1e4b5b856251da7d91a721bb930fed4cdf027cc456ff",
+      "functional_group": "PROOF_QA"
+    },
+    {
+      "slug": "fie-v54-live-read-qa",
+      "status": "ACTIVE",
+      "version": 6,
+      "verify_jwt": false,
+      "created_at": 1788547643562,
+      "updated_at": 1788548249378,
+      "source_sha256": "13fcaa030fbbfe45dd339eca5eeee3378550ad258581f58907db2f0e32211c3b",
+      "functional_group": "PROOF_QA"
+    },
+    {
+      "slug": "fie-v54-stable-gateway",
+      "status": "ACTIVE",
+      "version": 6,
+      "verify_jwt": false,
+      "created_at": 1788547870760,
+      "updated_at": 1788685284365,
+      "source_sha256": "d207f6190642d83864e8de45543eceda6000357dbdb4ffdf19d4888264cb2a20",
+      "functional_group": "UI_GATEWAY"
+    },
+    {
+      "slug": "fie-v54-friends-preview",
+      "status": "ACTIVE",
+      "version": 5,
+      "verify_jwt": false,
+      "created_at": 1788547956020,
+      "updated_at": 1788547956020,
+      "source_sha256": "592658babd37f94d9947bfe889659758d8181ae68aca7dce21d9d6d158f98e74",
+      "functional_group": "UI_GATEWAY"
+    },
+    {
+      "slug": "fie-v54-ui-qa-once",
+      "status": "ACTIVE",
+      "version": 9,
+      "verify_jwt": false,
+      "created_at": 1788547965252,
+      "updated_at": 1788548245477,
+      "source_sha256": "231727d2f52d59c74e44886a8685616c7a285ba20667d8f0829e0f186e68ed38",
+      "functional_group": "PROOF_QA"
+    },
+    {
+      "slug": "fie-v54-friends-release",
+      "status": "ACTIVE",
+      "version": 7,
+      "verify_jwt": false,
+      "created_at": 1788548038569,
+      "updated_at": 1788685361373,
+      "source_sha256": "9b54e74b63b349c0d2ed103e1cc813254da9d39a3f53c8dadf852d278a247415",
+      "functional_group": "UI_GATEWAY"
+    },
+    {
+      "slug": "fie-v54-decision-stable",
+      "status": "ACTIVE",
+      "version": 6,
+      "verify_jwt": false,
+      "created_at": 1788548177638,
+      "updated_at": 1788686055847,
+      "source_sha256": "e2bac238f582c11f820950eecba76bd978f65c0cf0dfd01b444303e52de0f91d",
+      "functional_group": "DECISION_LEARNING"
+    },
+    {
+      "slug": "fie-v55-decision-learning-readonly",
+      "status": "ACTIVE",
+      "version": 6,
+      "verify_jwt": false,
+      "created_at": 1788550189709,
+      "updated_at": 1788550455865,
+      "source_sha256": "77b83142fb10e8e1bd91e6994e10f3babf57328b7cdfb3897f7ada23c758adcf",
+      "functional_group": "DECISION_LEARNING"
+    },
+    {
+      "slug": "fie-v55-decision-learning-dev",
+      "status": "ACTIVE",
+      "version": 5,
+      "verify_jwt": false,
+      "created_at": 1788550329361,
+      "updated_at": 1788550329361,
+      "source_sha256": "5762e210e580206776c97f46ac1f19ebde3aecc88469621b137f0cef8ec7859b",
+      "functional_group": "DECISION_LEARNING"
+    },
+    {
+      "slug": "fie-v55-decision-learning-qa-once",
+      "status": "ACTIVE",
+      "version": 6,
+      "verify_jwt": false,
+      "created_at": 1788550344137,
+      "updated_at": 1788550897906,
+      "source_sha256": "24194cb1eaff48c56503ab81af473ec0c46050967aac41ff843de5513e057109",
+      "functional_group": "PROOF_QA"
+    },
+    {
+      "slug": "fie-v55-decision-learning-dev-final",
+      "status": "ACTIVE",
+      "version": 5,
+      "verify_jwt": false,
+      "created_at": 1788550704974,
+      "updated_at": 1788550704974,
+      "source_sha256": "31911607641b23212831523f19a7ba961f40bc8889914ce3442f0422bd16afc1",
+      "functional_group": "DECISION_LEARNING"
+    },
+    {
+      "slug": "fie-v55-final-qa-once",
+      "status": "ACTIVE",
+      "version": 6,
+      "verify_jwt": false,
+      "created_at": 1788550727705,
+      "updated_at": 1788550954900,
+      "source_sha256": "bfbd4a1a9c782f77d86c8bbd679e3b2883bb5e4a5482e07cc6aff459280f1871",
+      "functional_group": "PROOF_QA"
+    },
+    {
+      "slug": "fie-v55-decision-learning-dev-link",
+      "status": "ACTIVE",
+      "version": 5,
+      "verify_jwt": false,
+      "created_at": 1788552312129,
+      "updated_at": 1788552312129,
+      "source_sha256": "de0736efc5d179be87fcca289349417163d045f1fc59c70e703767be7805705d",
+      "functional_group": "DECISION_LEARNING"
+    },
+    {
+      "slug": "fie-v56-decision-learning-proof-dev",
+      "status": "ACTIVE",
+      "version": 6,
+      "verify_jwt": false,
+      "created_at": 1788589525134,
+      "updated_at": 1788597287903,
+      "source_sha256": "bc2709b72011ef85ab36d8ff56bd968fd01b5a121b010733e72e0a1df6cb7338",
+      "functional_group": "PROOF_QA"
+    },
+    {
+      "slug": "fie-v56-decision-learning-dev",
+      "status": "ACTIVE",
+      "version": 5,
+      "verify_jwt": false,
+      "created_at": 1788589543972,
+      "updated_at": 1788589543972,
+      "source_sha256": "ed834d7ba345eebcd85d248f3d6654a0a7d4a321a2542cd857a424191312bd57",
+      "functional_group": "DECISION_LEARNING"
+    },
+    {
+      "slug": "fie-v57-bundle-engine-dev",
+      "status": "ACTIVE",
+      "version": 5,
+      "verify_jwt": false,
+      "created_at": 1788596018611,
+      "updated_at": 1788596018611,
+      "source_sha256": "256dd69ca9c56a8226154e643967ff19101630c45fc65e4ccd5dfa2044de0a3a",
+      "functional_group": "PORTFOLIO_BUNDLE"
+    },
+    {
+      "slug": "fie-v57-bundle-engine-dev2",
+      "status": "ACTIVE",
+      "version": 5,
+      "verify_jwt": false,
+      "created_at": 1788596200305,
+      "updated_at": 1788596200305,
+      "source_sha256": "eed2a1cba3568c7629b4ebeb8aadf8999cd12f6e6c7f449cab6a2a9c801a54b0",
+      "functional_group": "PORTFOLIO_BUNDLE"
+    },
+    {
+      "slug": "fie-v57-bundle-lab-dev",
+      "status": "ACTIVE",
+      "version": 6,
+      "verify_jwt": false,
+      "created_at": 1788596261173,
+      "updated_at": 1788596290774,
+      "source_sha256": "29e90d0a7b91aa7fcb4014dc7c2e7eaebda417541af6c72a8346aac2dc9c5f0a",
+      "functional_group": "PORTFOLIO_BUNDLE"
+    },
+    {
+      "slug": "fie-v57-bundle-engine-dev3",
+      "status": "ACTIVE",
+      "version": 5,
+      "verify_jwt": false,
+      "created_at": 1788596573908,
+      "updated_at": 1788596573908,
+      "source_sha256": "e5c9361985d3aed9dcf0f2aaf7bfc07edc3c184eed393ebffee7bfb5d8b7ff95",
+      "functional_group": "PORTFOLIO_BUNDLE"
+    },
+    {
+      "slug": "fie-v57-bundle-lab-dev-final",
+      "status": "ACTIVE",
+      "version": 5,
+      "verify_jwt": false,
+      "created_at": 1788596607390,
+      "updated_at": 1788596607390,
+      "source_sha256": "62da3518a04bf6edb8424ee065a958020a77bbb839c86a716ceb08b51808248a",
+      "functional_group": "PORTFOLIO_BUNDLE"
+    },
+    {
+      "slug": "fie-v57-bundle-engine-dev4",
+      "status": "ACTIVE",
+      "version": 5,
+      "verify_jwt": false,
+      "created_at": 1788596781663,
+      "updated_at": 1788596781663,
+      "source_sha256": "1c2a163cfbb9b3693490e08afd0493d0da4489de367aece2f601f67669e11ebe",
+      "functional_group": "PORTFOLIO_BUNDLE"
+    },
+    {
+      "slug": "fie-v57-bundle-lab-release",
+      "status": "ACTIVE",
+      "version": 5,
+      "verify_jwt": false,
+      "created_at": 1788596789693,
+      "updated_at": 1788596789693,
+      "source_sha256": "e28438419d5dfcc2c56acbe770ff253e50da299291414da5f0374d6ddc106e21",
+      "functional_group": "PORTFOLIO_BUNDLE"
+    },
+    {
+      "slug": "fie-v57-bundle-engine-live",
+      "status": "ACTIVE",
+      "version": 8,
+      "verify_jwt": false,
+      "created_at": 1788597873137,
+      "updated_at": 1789617212601,
+      "source_sha256": "46c054683f8b4b9cc5306886b7f056182cc1a86d5beafb23c3a1bda1415dbdd8",
+      "functional_group": "PORTFOLIO_BUNDLE"
+    },
+    {
+      "slug": "fie-v57-bundle-lab-live",
+      "status": "ACTIVE",
+      "version": 5,
+      "verify_jwt": false,
+      "created_at": 1788598127931,
+      "updated_at": 1788598127931,
+      "source_sha256": "03bbe315256c016460ef093a7467c058e8be258ad302231a146e2f556c89871e",
+      "functional_group": "PORTFOLIO_BUNDLE"
+    },
+    {
+      "slug": "fie-v58-evidence-learning-api-dev",
+      "status": "ACTIVE",
+      "version": 11,
+      "verify_jwt": false,
+      "created_at": 1788598674636,
+      "updated_at": 1788715622719,
+      "source_sha256": "e5ba20161c800ebaa86798585499510c0890d8f83a1bbb3760a7cb29a01fde01",
+      "functional_group": "OTHER"
+    },
+    {
+      "slug": "fie-v58-pattern-intelligence-dev",
+      "status": "ACTIVE",
+      "version": 24,
+      "verify_jwt": false,
+      "created_at": 1788598787654,
+      "updated_at": 1789600524048,
+      "source_sha256": "6cd3ffb4626447f3fbd4286ac4c2518186378bb6edc852dc2b23903bfee98cde",
+      "functional_group": "PATTERN"
+    },
+    {
+      "slug": "fie-v58-evidence-learning-dev",
+      "status": "ACTIVE",
+      "version": 5,
+      "verify_jwt": false,
+      "created_at": 1788598912392,
+      "updated_at": 1788598912392,
+      "source_sha256": "d15eb77cb136272aa1c271e587d73b2c13e546c4af2b943f98e27328367f30d5",
+      "functional_group": "OTHER"
+    },
+    {
+      "slug": "fie-v58-evidence-learning-dev-link",
+      "status": "ACTIVE",
+      "version": 6,
+      "verify_jwt": false,
+      "created_at": 1788599045447,
+      "updated_at": 1788599210207,
+      "source_sha256": "118b5874b29e011f68e52b810104539c0e9850af2d644f68b40eb11c883ebc3b",
+      "functional_group": "OTHER"
+    },
+    {
+      "slug": "fie-v58-qa-once",
+      "status": "ACTIVE",
+      "version": 7,
+      "verify_jwt": false,
+      "created_at": 1788599052909,
+      "updated_at": 1788599239499,
+      "source_sha256": "cdb75ea803391bc72f5a23d4b6f1451b5790dab5e3d59526f31c5d332702c2f6",
+      "functional_group": "PROOF_QA"
+    },
+    {
+      "slug": "fie-v58-evidence-learning-dev-final",
+      "status": "ACTIVE",
+      "version": 5,
+      "verify_jwt": false,
+      "created_at": 1788599201983,
+      "updated_at": 1788599201983,
+      "source_sha256": "2ada8e9296a8e3084bbbd1a41acb9b6cd964dbbb158f4f1a49142f4c6da11c5b",
+      "functional_group": "OTHER"
+    },
+    {
+      "slug": "fie-v59-proof-resilient-dev",
+      "status": "ACTIVE",
+      "version": 8,
+      "verify_jwt": false,
+      "created_at": 1788601458027,
+      "updated_at": 1789616886713,
+      "source_sha256": "b523bcafe5e996ef409989952d650fbd38270141503c5811e3b322bc98a76d5b",
+      "functional_group": "PROOF_QA"
+    },
+    {
+      "slug": "fie-v59-proof-resilient-dev-link",
+      "status": "ACTIVE",
+      "version": 8,
+      "verify_jwt": false,
+      "created_at": 1788601463817,
+      "updated_at": 1789617105046,
+      "source_sha256": "05b48918acbca74e2fa558d0466c966253554808f34f97241d629c74411d730e",
+      "functional_group": "PROOF_QA"
+    },
+    {
+      "slug": "fie-tmle-public-ingest",
+      "status": "ACTIVE",
+      "version": 5,
+      "verify_jwt": true,
+      "created_at": 1788602481799,
+      "updated_at": 1788602481799,
+      "source_sha256": "c40974128151e3131fa2ce099bf86d0bb01d963de797afe8693adf0a51c14085",
+      "functional_group": "TMLE_DATA"
+    },
+    {
+      "slug": "fie-tmle-public-ingest-v2",
+      "status": "ACTIVE",
+      "version": 5,
+      "verify_jwt": true,
+      "created_at": 1788602822889,
+      "updated_at": 1788602822889,
+      "source_sha256": "68505c78df156dfbdf290cafa272996150c802e834bfbbe68f8c82af11b50242",
+      "functional_group": "TMLE_DATA"
+    },
+    {
+      "slug": "fie-tmle-gdelt-ingest-v1",
+      "status": "ACTIVE",
+      "version": 5,
+      "verify_jwt": true,
+      "created_at": 1788602951881,
+      "updated_at": 1788602951881,
+      "source_sha256": "8e2c260a62c8e5dd9ee93e324c3f00ec45ded5aef2711ac981f4869259b5be78",
+      "functional_group": "TMLE_DATA"
+    },
+    {
+      "slug": "fie-tmle-bluesky-ingest-v1",
+      "status": "ACTIVE",
+      "version": 5,
+      "verify_jwt": true,
+      "created_at": 1788602967301,
+      "updated_at": 1788602967301,
+      "source_sha256": "75e861fa2df15d80d05dee8364f1d31439a0b226d8a07f50994a9301a743ba1c",
+      "functional_group": "TMLE_DATA"
+    },
+    {
+      "slug": "fie-tmle-gdelt-ingest-v2",
+      "status": "ACTIVE",
+      "version": 5,
+      "verify_jwt": true,
+      "created_at": 1788603070813,
+      "updated_at": 1788603070813,
+      "source_sha256": "2e154122d39693e51446e75e422854e604ae84f0b8ae2657921f84cdf78f22a0",
+      "functional_group": "TMLE_DATA"
+    },
+    {
+      "slug": "fie3-consumer-dev",
+      "status": "ACTIVE",
+      "version": 5,
+      "verify_jwt": false,
+      "created_at": 1788648503109,
+      "updated_at": 1788648503109,
+      "source_sha256": "d43d6176093bbcddc1aedf706506d32def02d65a671e6d46f54d458aea2bc0f0",
+      "functional_group": "UI_GATEWAY"
+    },
+    {
+      "slug": "fie3-consumer-dev-v2",
+      "status": "ACTIVE",
+      "version": 6,
+      "verify_jwt": false,
+      "created_at": 1788648576211,
+      "updated_at": 1788971516519,
+      "source_sha256": "872c7f72f3d81353ae3173f73eb8c0f7fbbc9a720de68bd1fe2b026b7ccef6b8",
+      "functional_group": "UI_GATEWAY"
+    },
+    {
+      "slug": "fie3-consumer-dev-v3",
+      "status": "ACTIVE",
+      "version": 28,
+      "verify_jwt": false,
+      "created_at": 1788648671984,
+      "updated_at": 1789600498721,
+      "source_sha256": "b67ba8c933af9f359aaf510ae2496fdfe402bf8612ec90084422475c9b3a6890",
+      "functional_group": "UI_GATEWAY"
+    },
+    {
+      "slug": "fie3-consumer-qa-once",
+      "status": "ACTIVE",
+      "version": 5,
+      "verify_jwt": false,
+      "created_at": 1788648704319,
+      "updated_at": 1788648704319,
+      "source_sha256": "1f22a2bf795365c4ae410a65b8642b51757c6696719cee6911f0754243987522",
+      "functional_group": "PROOF_QA"
+    },
+    {
+      "slug": "fie-fred-connection-test",
+      "status": "ACTIVE",
+      "version": 4,
+      "verify_jwt": true,
+      "created_at": 1788649722197,
+      "updated_at": 1788649722197,
+      "source_sha256": "f92c1e91b76aa36b01e6a965d8a7b5308197aa1adf75d7e12f40ea7e07895504",
+      "functional_group": "SOURCE_INGEST"
+    },
+    {
+      "slug": "fie-danelfin-connection-test",
+      "status": "ACTIVE",
+      "version": 5,
+      "verify_jwt": false,
+      "created_at": 1788649888588,
+      "updated_at": 1788652757025,
+      "source_sha256": "cb744db1cf4742a17411e45b33755a9979d55ca8ff050cf415fe811e5c8ad20f",
+      "functional_group": "SOURCE_INGEST"
+    },
+    {
+      "slug": "fie-bigdata-connection-test",
+      "status": "ACTIVE",
+      "version": 2,
+      "verify_jwt": true,
+      "created_at": 1788650033987,
+      "updated_at": 1788650033987,
+      "source_sha256": "c8fa3d089713b17f46052a92efc93866483b9f9ef8678724a9558ce03f569b06",
+      "functional_group": "SOURCE_INGEST"
+    },
+    {
+      "slug": "fie-fred-vintage-probe",
+      "status": "ACTIVE",
+      "version": 4,
+      "verify_jwt": false,
+      "created_at": 1788652319299,
+      "updated_at": 1788652393768,
+      "source_sha256": "62743c2ad3d6d287ecec8de43eb62389e50eb159ffa14967b3cdc0ab9ea34a50",
+      "functional_group": "SOURCE_INGEST"
+    },
+    {
+      "slug": "fie-fred-alfred-pit-backfill-v1",
+      "status": "ACTIVE",
+      "version": 7,
+      "verify_jwt": false,
+      "created_at": 1788652474871,
+      "updated_at": 1789168401822,
+      "source_sha256": "d004e57e41e9facc3c0ad65ea1701f95ac694199afcf6d39263924c95658d5e0",
+      "functional_group": "TMLE_DATA"
+    },
+    {
+      "slug": "fie-danelfin-shadow-history-v1",
+      "status": "ACTIVE",
+      "version": 2,
+      "verify_jwt": false,
+      "created_at": 1788652968210,
+      "updated_at": 1788652968210,
+      "source_sha256": "0f31f3cff2b9f9b02957b4ce2106ddb7630432f4bc0097a30e51178589c14982",
+      "functional_group": "TMLE_DATA"
+    },
+    {
+      "slug": "fie-bigdata-budgeted-probe-v1",
+      "status": "ACTIVE",
+      "version": 3,
+      "verify_jwt": false,
+      "created_at": 1788653151146,
+      "updated_at": 1788653245615,
+      "source_sha256": "124838c146422c2ab0f895bcbadbddc53f66575e7cb8c6e12fdbcd0b0bd2dc8a",
+      "functional_group": "SOURCE_INGEST"
+    },
+    {
+      "slug": "fie-belief-disagreement-shadow-v1",
+      "status": "ACTIVE",
+      "version": 2,
+      "verify_jwt": true,
+      "created_at": 1788653944115,
+      "updated_at": 1788653944115,
+      "source_sha256": "28d9e0202f69f7e86482389c8045175f5f2503aa1d689442f34ac42057fd3bb8",
+      "functional_group": "SCIENCE_RESEARCH"
+    },
+    {
+      "slug": "fie-scientist-decision-relevance-v1",
+      "status": "ACTIVE",
+      "version": 2,
+      "verify_jwt": true,
+      "created_at": 1788657324024,
+      "updated_at": 1788657324024,
+      "source_sha256": "8bd635a7a1315bc5d86bbf6aff1e5f47b9ef370f4561c40a8d372a5d1efb7cdf",
+      "functional_group": "DECISION_LEARNING"
+    },
+    {
+      "slug": "fie-decision-policy-shadow-v1",
+      "status": "ACTIVE",
+      "version": 2,
+      "verify_jwt": true,
+      "created_at": 1788657336370,
+      "updated_at": 1788657336370,
+      "source_sha256": "6427d7cc8a55a9e6d30831242ac5e696ca85a0396d244ab109aa1ac57bced0b9",
+      "functional_group": "DECISION_LEARNING"
+    },
+    {
+      "slug": "fie-scientist-decision-relevance-v2",
+      "status": "ACTIVE",
+      "version": 2,
+      "verify_jwt": true,
+      "created_at": 1788661155985,
+      "updated_at": 1788661155985,
+      "source_sha256": "e15a73b784aaff44de165dad4e1ee57b14c5f5c01742f10a9f0b5ef089bebdd4",
+      "functional_group": "DECISION_LEARNING"
+    },
+    {
+      "slug": "fie-decision-regret-audit-v1",
+      "status": "ACTIVE",
+      "version": 2,
+      "verify_jwt": true,
+      "created_at": 1788661170414,
+      "updated_at": 1788661170414,
+      "source_sha256": "015687423fbeaad5983613c41e12ddcdb2b21dcf577412148f706d7749c38e47",
+      "functional_group": "DECISION_LEARNING"
+    },
+    {
+      "slug": "fie-failure-attribution-shadow-v1",
+      "status": "ACTIVE",
+      "version": 2,
+      "verify_jwt": true,
+      "created_at": 1788664488108,
+      "updated_at": 1788664488108,
+      "source_sha256": "f2e911b5e9c0476d402f34317e5f90dc1bd43fe6febd62089a44581b63cb8a9c",
+      "functional_group": "SCIENCE_RESEARCH"
+    },
+    {
+      "slug": "fie-scientist-world-model-audit-v1",
+      "status": "ACTIVE",
+      "version": 2,
+      "verify_jwt": true,
+      "created_at": 1788668254598,
+      "updated_at": 1788668254598,
+      "source_sha256": "7b99de7750a3369fbe7d5565d7b9f4cb04a35fdfa89d18243f20006f9fca9b6f",
+      "functional_group": "SCIENCE_RESEARCH"
+    }
+  ]
+}
