@@ -1,9 +1,18 @@
 # HELIX — LEGACY CAPABILITY REGISTRY
 
 Date: 2026-09-18
-Status: INITIAL ZERO-LOSS INVENTORY
+Status: SOURCE-LINKED ZERO-LOSS INVENTORY v1
 
 This registry preserves the recovered legacy capability estate. It is intentionally conservative: similar labels are not deleted merely because they may later be merged.
+
+Source-level linkage is tracked in:
+- `docs/SOURCE_LEVEL_ZERO_LOSS_CENSUS.md`
+- `docs/SOURCE_CENSUS_MANIFEST.json`
+- `docs/LEGACY_EDGE_FUNCTION_INVENTORY.json`
+- `docs/CAPABILITY_RUNTIME_MAP_V1.md`
+- `docs/CAPABILITY_RUNTIME_MAP_V1.json`
+
+Current Gate 0.5 state: IN PROGRESS. Edge metadata coverage is complete; DB/scheduler/Layerbase-object verification remains incomplete.
 
 | Canonical domain | Legacy capability / label | Source generation | Initial disposition | Current note |
 |---|---|---|---|---|
